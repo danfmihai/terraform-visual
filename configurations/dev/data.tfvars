@@ -7,3 +7,5 @@ created_by  =   "Misu"
 count_ec2   =   "2"
 Dept    =   "IT"
 env =   "dev"
+min_size    =   3
+max_size    =   6
