@@ -4,8 +4,8 @@ resource "aws_instance" "example" {
   key_name                    = var.key_name
   subnet_id                   = var.subnet_id
   associate_public_ip_address = true
-  tags {
-    Name       = format("%s_%s_%s_%s", var.Name, var.env, var.dept, "${count.index + 1}")
+  tags = {
+    Name       = format("%s_%s_%s_%g", var.Name, var.env, var.dept,"${count.index + 1}")
     Dept       = var.Dept
     Created_by = var.created_by
   }
