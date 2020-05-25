@@ -5,9 +5,9 @@ resource "aws_instance" "example" {
   subnet_id                   = var.subnet_id
   associate_public_ip_address = true
   count = var.count_ec2
-  
+
   tags = {
-    Name       = format("%s_%s_%s_%g", var.Name, var.env, var.dept,"${count.index + 1}")
+    Name       = format("%s_%s_%s_%g", var.Name, var.env, var.Dept,"${count.index + 1}")
     Dept       = var.Dept
     Created_by = var.created_by
   }
