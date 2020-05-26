@@ -3,7 +3,7 @@ resource "aws_vpc" "dev" {
   instance_tenancy  =   "default"
   
   tags  = {
-      Name = format("%s_%s_%s",var.env,var.Name,"${count.index +1}")
+      Name = format("%s_%s",var.env,var.Name)
       created_by = var.created_by
       Dept  =   var.Dept
   }
