@@ -1,4 +1,4 @@
-ami =   "ami-0ce2e5b7d27317779"
+ami =   "ami-0323c3dd2da7fb37d"
 instance_type   =   "t2.micro"
 key_name =   "mykey"
 Name    =   "Consul"
@@ -7,5 +7,5 @@ created_by  =   "Misu"
 #count_ec2   =   1
 Dept    =   "IT"
 env =   "dev"
-min_size    =   3
+min_size    =   5
 max_size    =   6
