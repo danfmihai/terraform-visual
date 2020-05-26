@@ -1,7 +1,7 @@
 ami =   "ami-0323c3dd2da7fb37d"
 instance_type   =   "t2.micro"
 key_name =   "mykey"
-Name    =   "Consul"
+Name    =   "consul"
 subnet_id   =   "subnet-0572de0b"
 created_by  =   "Misu"
 #count_ec2   =   1
